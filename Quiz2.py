@@ -13,10 +13,6 @@ studentRecord = [["stdId","studentName","Standard","Age","Hindi",'English',"Math
 headers = studentRecord[0]
 data = studentRecord[1:]
 
-# Convert to dictionary
-# student_dict = [dict(zip(headers, student)) for student in data]
-# print(student_dict)
-
 student_dict=[]
 for i in data:
     temp={}
